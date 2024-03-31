@@ -1,3 +1,7 @@
+## [5.24.5] - 2024-03-31
+
+* Update pubspec.yaml
+
 ## [5.24.4] - 2024-03-30
 
 * Update pubspec.yaml

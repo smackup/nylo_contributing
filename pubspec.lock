@@ -288,9 +288,10 @@ packages:
   nylo_support:
     dependency: "direct main"
     description:
-      path: "../support"
-      relative: true
-    source: path
+      name: nylo_support
+      sha256: "1bdbea11f84a537db9a6344fc2e2c0521385a67a932b574676791100d7beda45"
+      url: "https://pub.dev"
+    source: hosted
     version: "5.61.0"
   page_transition:
     dependency: "direct main"
