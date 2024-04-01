@@ -371,7 +371,7 @@ _makeApiService(List<String> arguments) async {
     List<String> fileCollectionsNames = [];
     filesCollections.forEach((element) {
       if (element.path.contains(".json")) {
-        fileCollectionsNames.add(element.path.split("/").last);
+        fileCollectionsNames.add((element.path.split("/").last).split("\\").last);
       }
     });
 
@@ -393,7 +393,7 @@ _makeApiService(List<String> arguments) async {
     List<String> fileEnvironmentNames = [];
     filesEnvironment.forEach((element) {
       if (element.path.contains(".json")) {
-        fileEnvironmentNames.add(element.path.split("/").last);
+        fileEnvironmentNames.add((element.path.split("/").last).split("\\").last);
       }
     });
 
